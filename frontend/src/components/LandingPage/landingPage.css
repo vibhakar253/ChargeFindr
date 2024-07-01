@@ -1,0 +1,82 @@
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container for the landing page */
+.landing {
+    background-image: url('C:\Users\91868\Desktop\GitHub\Ampcharge\frontend\src\components\LandingPage\FindJuice.png');
+    background-position-y: 270px ;
+    background-position-x: 450px ;
+    height: 100vh;
+    background-size:500px 500px ;
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+/* Styling for the main message */
+.landing p {
+    font-family: Arial, Helvetica, sans-serif; /* Use 'Ubuntu' font */
+    color: #000000; /* White text color for better contrast */
+    text-align: center; /* Center the text */
+    font-size: 36px; /* Font size for the message */
+    line-height: 2rem; /* Line height for readability */
+    letter-spacing: 6px; /* Spacing between letters */
+    margin-bottom: 20px; /* Space below the message */
+    font-weight: bold;
+    margin-top: -20px;
+    -webkit-text-stroke: .2px black;
+
+}
+
+/* Container for the buttons */
+.buttons {
+    display: flex; /* Flexbox to align buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    gap: 20px; /* Space between the buttons */
+    margin-top: 20px; /* Add some space above the buttons */
+}
+
+/* Common button styling */
+.button {
+    font-family: 'Ubuntu', sans-serif; /* Consistent font with the main message */
+    text-decoration: none; /* Remove underline from the links */
+    color: #ffffff; /* Black text color */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for the buttons */
+    text-align: center; /* Center text inside the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: inline-block; /* Ensure buttons are inline blocks */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Specific styling for the Login button */
+.login-button {
+    background-color: #000000; 
+    box-shadow: 0px 5px 5px lightgrey;/* White background for the Login button */
+}
+
+/* Specific styling for the Register button */
+.register-button {
+    background-color: #000000; /* Black background for the Register button */
+    color: #ffffff;
+    box-shadow: 0px 5px 5px lightgrey;/* White background for the Login button */
+    /* White text color for the Register button */
+}
+
+/* Hover effect for the buttons */
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+    color: #000; /* Change text color to black on hover for contrast */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    transition: all 0.2s ease-in-out; /* Smooth scaling effect */
+}

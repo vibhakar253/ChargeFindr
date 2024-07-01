@@ -1,0 +1,354 @@
+/* Existing CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu sans', sans-serif;
+}
+
+.admin {
+    background-image: url('./assets/FindJuice.png');
+    background-position-y: 170px ;
+    background-position-x: 450px ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: relative; /* Ensure relative positioning for overlay */
+}
+
+.adcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.adbox {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 200vh;
+    height: 80vh;
+    margin-top: 70px;
+    overflow-y: auto; /* Enable scrolling for station cards */
+    position: relative; /* Ensure relative positioning */
+}
+
+/* Custom scrollbar styles */
+.adbox::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+}
+
+.adbox::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+    border-radius: 10px; /* Rounding the track */
+}
+
+.adbox::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounding the thumb */
+    border: 3px solid #f1f1f1; /* Padding around the thumb */
+}
+
+.adbox::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the thumb on hover */
+}
+
+#newstation {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px;
+    border-radius: 50px;
+    left: 100vh;
+    position:fixed;
+    top: 110px;
+    cursor: pointer;
+    font-weight: 700;
+}
+#newstation:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: fixed;
+    top: 10px;
+    left: 100vh;
+}
+
+.headadmin {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.headadmin p {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.aduser {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.aduser input {
+    border: none;
+    border: 1px solid black;
+    background: transparent;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.aduser textarea {
+    background: transparent;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.addr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.addr input {
+    width: calc(50% - 90px);
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.field2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.field2 input {
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.connectors {
+    margin-top: 25px;
+    padding-right: 10px;
+    
+}
+
+.gbt,
+.bharatdc001,
+.chademo,
+.ccs,
+.ccs2 {
+    margin-right: 75px;
+}
+
+.fadmin {
+    display: flex;
+    flex-direction: column; /* Updated */
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.fadmin .button-container { /* New container for buttons */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fadmin button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 16px;
+    width: auto;
+    text-align: center; /* Center text within the button */
+}
+.fadmin button:hover{
+    opacity: .5;
+    transform: scale(1.05);
+    transform: translateY(-2px);
+
+}
+#bin{
+    background-color: transparent;
+    border: none;
+    
+}
+.stations_container {
+    margin-top: 50px;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.station_card {
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px;
+    position: relative;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.station_card:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out; 
+}
+
+.station_card p {
+    margin: 5px 0;
+}
+
+.station_card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+    flex-direction: row;
+
+}
+
+.station_card button:hover {
+    color: #ffffff;
+    opacity: .1;
+}
+
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10; /* Ensure popup is above other content */
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    border: 2px solid black;
+}
+.time-slots {
+    max-height: 200px; /* Adjust this height as needed */
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .time-slot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .time-slot label {
+    margin-right: 10px;
+  }
+  
+  .time-slot select,
+  .time-slot input {
+    margin-right: 10px;
+  }
+  
+  .add-timeslot {
+    margin-top: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-timeslot:hover {
+    background-color: #000000;
+  }
+  
+  .remove-timeslot {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-timeslot:hover {
+    color: red;
+  }
+  
+@media (max-width: 768px) {
+    .adbox {
+        width: 80vw;
+        height: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+
+    .addr input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .aduser input {
+        margin-bottom: 10px;
+    }
+
+    .field, .field2 {
+        flex-direction: column;
+    }
+
+    .field2 input {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .fadmin .button-container { /* Updated for mobile view */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fadmin button {
+        width: 100%; /* Updated for mobile view */
+        margin-top: 10px; /* Updated for mobile view */
+    }
+}

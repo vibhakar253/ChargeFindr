@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu sans';
+}
+
+.login{
+    background-color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: relative; 
+}
+
+
+.lgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lgbox{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,70%);
+    width: 50vh;
+    height: 60vh;
+    box-shadow: 10px 10px;
+}
+
+.lgheader{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+    
+}
+.login-lbl{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px; 
+}
+
+.user input{
+    border: none;
+    border: 1px solid black;
+    background: transparent;
+    position: relative;
+    padding: 15px;
+    outline: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.user input:focus{
+    outline: none;
+}
+
+
+
+.signin{
+    padding: 10px 10px;
+    
+}
+.signup{
+    padding-top:20px;
+}
+.signup a{
+    color: black;
+    font-size: 18px;
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;}
+
+.signup button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: none; 
+    margin-left: 100px;  
+}
+
+.signin button:hover{
+    background-color: rgb(89, 89, 89);
+    transform: scale(1.05);
+
+}
+

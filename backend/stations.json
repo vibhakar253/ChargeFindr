@@ -1,0 +1,857 @@
+[
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.38448,
+        17.4481
+      ]
+    },
+    "_id": "667f0782ebc30c5342b70989",
+    "area": "Hitec City",
+    "name": "Powergrid Electric Vehicle Charging Station",
+    "address": "Hyderabad Next Galleria 2 Hitec City",
+    "contact": "9711181070",
+    "capacity": 25,
+    "connectorsType": [
+      "Bharat DC001",
+      "GB/T",
+      "CCS-II"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-08-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f0782ebc30c5342b7098a"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "_id": "667f0782ebc30c5342b7098b"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "_id": "667f0782ebc30c5342b7098c"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f0782ebc30c5342b7098d"
+      },
+      {
+        "date": "2024-07-02",
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "_id": "667f0782ebc30c5342b7098e"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4077,
+        17.4142
+      ]
+    },
+    "_id": "667f0b56ebc30c5342b70a7f",
+    "area": "Jubilee Hills",
+    "name": "The Moonshine Project restaurant ",
+    "address": "385, Road Number 82, Film Nagar, Jubilee Hills\n\n",
+    "contact": "91009 22708",
+    "capacity": 32,
+    "connectorsType": [
+      "CCS-II",
+      "Bharat DC001",
+      "GB/T"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f0b56ebc30c5342b70a80"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "_id": "667f0b56ebc30c5342b70a81"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f0b56ebc30c5342b70a82"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f0b56ebc30c5342b70a83"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "_id": "667f0b56ebc30c5342b70a84"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "_id": "667f0b56ebc30c5342b70a85"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "_id": "667f0b56ebc30c5342b70a86"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4378,
+        17.4067503
+      ]
+    },
+    "_id": "667f0c9debc30c5342b70b0a",
+    "area": "Secunderabad",
+    "name": "SMR VINAY HEIGHTS",
+    "address": "Cluster_malkajgiri 39, Near Railway Recruitment Board, Keshav Nagar Colony, Mettuguda, Secunderabad, Telangana 500017",
+    "contact": "9287475961",
+    "capacity": 25,
+    "connectorsType": [
+      "Bharat DC001"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f0c9debc30c5342b70b0b"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f0c9debc30c5342b70b0c"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f0c9debc30c5342b70b0d"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "_id": "667f0c9debc30c5342b70b0e"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "_id": "667f0c9debc30c5342b70b0f"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "_id": "667f0c9debc30c5342b70b10"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "20:00",
+        "endTime": "21:00",
+        "_id": "667f0c9debc30c5342b70b11"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4378,
+        17.3724
+      ]
+    },
+    "_id": "667f0e4eebc30c5342b70b8b",
+    "area": "Gachibowli",
+    "name": "Ola Hypercharger",
+    "address": "SANDYA FUEL STATION, FCI Employees Cooperative Housing Society, Indira Nagar, Gachibowli, Hyderabad, Telangana 500032",
+    "contact": "7702554444",
+    "capacity": 43,
+    "connectorsType": [
+      "Bharat DC001",
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f0e4eebc30c5342b70b8c"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "_id": "667f0e4eebc30c5342b70b8d"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f0e4eebc30c5342b70b8e"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3521,
+        17.4454
+      ]
+    },
+    "_id": "667f0f41ebc30c5342b70bbe",
+    "area": "Gachibowli",
+    "name": "Gachibowli Green Charge",
+    "address": "3rd Floor, DLF Cyber City, Gachibowli, Hyderabad, Telangana 500032",
+    "contact": "8000012345",
+    "capacity": 50,
+    "connectorsType": [
+      "CCS-II",
+      "CHAdeMO",
+      "Bharat DC001"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f0f41ebc30c5342b70bbf"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "_id": "667f0f41ebc30c5342b70bc0"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "_id": "667f0f41ebc30c5342b70bc1"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f0f41ebc30c5342b70bc2"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "_id": "667f0f41ebc30c5342b70bc3"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "_id": "667f0f41ebc30c5342b70bc4"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "_id": "667f0f41ebc30c5342b70bc5"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3828,
+        17.4368
+      ]
+    },
+    "_id": "667f1001ebc30c5342b70cc7",
+    "area": "Gachibowli",
+    "name": "CyberCity Power Hub",
+    "address": "DLF Cyber City, Gachibowli, Hyderabad, Telangana 500032",
+    "contact": "80000 67890",
+    "capacity": 100,
+    "connectorsType": [
+      "GB/T",
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f1001ebc30c5342b70cc8"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f1001ebc30c5342b70cc9"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f1001ebc30c5342b70cca"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3773,
+        17.4446
+      ]
+    },
+    "_id": "667f1068ebc30c5342b70d0e",
+    "area": "Gachibowli",
+    "name": "Tech Park ChargePoint",
+    "address": "Ground Floor, Building No. 12A, Raheja Mindspace IT Park, Madhapur, Gachibowli, Hyderabad, Telangana 500081",
+    "contact": "8000054321",
+    "capacity": 75,
+    "connectorsType": [
+      "CHAdeMO",
+      "CCS-II"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "_id": "667f1068ebc30c5342b70d0f"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "_id": "667f1068ebc30c5342b70d10"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f1068ebc30c5342b70d11"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f1068ebc30c5342b70d12"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "_id": "667f1068ebc30c5342b70d13"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3404,
+        17.4239
+      ]
+    },
+    "_id": "667f10e1ebc30c5342b70d61",
+    "area": "Gachibowli",
+    "name": "Quantum EV Station",
+    "address": "Basement 2, Tower 3, WaveRock SEZ, Financial District, Gachibowli, Hyderabad",
+    "contact": "8000098765",
+    "capacity": 60,
+    "connectorsType": [
+      "CHAdeMO"
+    ],
+    "timeSlots": [],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4983,
+        17.4399
+      ]
+    },
+    "_id": "667f12c7ebc30c5342b70fc5",
+    "area": "Secunderabad",
+    "name": "Spark Charge",
+    "address": "Alpha Building, Park Lane, Secunderabad, Hyderabad, Telangana 500003",
+    "contact": " 8000045678",
+    "capacity": 50,
+    "connectorsType": [
+      "GB/T"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f12c7ebc30c5342b70fc6"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.466,
+        17.4435
+      ]
+    },
+    "_id": "667f135febc30c5342b7114e",
+    "area": "Begumpet",
+    "name": "Tesla Power Station",
+    "address": "Airport Plaza, Sardar Patel Road, Begumpet, Hyderabad, Telangana 500016",
+    "contact": "8000087654",
+    "capacity": 80,
+    "connectorsType": [
+      "GB/T",
+      "Bharat DC001"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f1375ebc30c5342b7119f"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f1375ebc30c5342b711a0"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f1375ebc30c5342b711a1"
+      }
+    ],
+    "__v": 1
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3985,
+        17.4948
+      ]
+    },
+    "_id": "667f1425ebc30c5342b711f7",
+    "area": "Kukatpally",
+    "name": "ION Re-Charge Point",
+    "address": "Plot No. 47, KPHB Colony, Kukatpally, Hyderabad, Telangana 500072",
+    "contact": "8000067890",
+    "capacity": 60,
+    "connectorsType": [
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-02",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f1425ebc30c5342b711f8"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "_id": "667f1425ebc30c5342b711f9"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f1425ebc30c5342b711fa"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3108,
+        17.4935
+      ]
+    },
+    "_id": "667f14e5ebc30c5342b71364",
+    "area": "BHEL",
+    "name": "BHEL EcoCharge Station",
+    "address": "Sapphire Arcade, Opposite BHEL Main Gate, RC Puram, Hyderabad, Telangana 502032",
+    "contact": "8000010101",
+    "capacity": 50,
+    "connectorsType": [
+      "CCS",
+      "Bharat DC001"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "_id": "667f14e5ebc30c5342b71365"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f14e5ebc30c5342b71366"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f14e5ebc30c5342b71367"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "_id": "667f14e5ebc30c5342b71368"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "_id": "667f14e5ebc30c5342b71369"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f14e5ebc30c5342b7136a"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3262,
+        17.4844
+      ]
+    },
+    "_id": "667f15c3ebc30c5342b713d2",
+    "area": "Chand Nagar",
+    "name": "Chanda Nagar Charge Point",
+    "address": "Ground Floor, Global Trade Center, NH 65, Chanda Nagar, Hyderabad, Telangana 500050",
+    "contact": "80000 20202",
+    "capacity": 60,
+    "connectorsType": [
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f15c3ebc30c5342b713d3"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f15c3ebc30c5342b713d4"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3484,
+        17.4942
+      ]
+    },
+    "_id": "667f161cebc30c5342b71440",
+    "area": "Miyapur",
+    "name": "MiyaShock EV Hub",
+    "address": "Basement, Miyapur Metro Station, NH 65, Miyapur, Hyderabad, Telangana 500049",
+    "contact": " 80000 30303",
+    "capacity": 70,
+    "connectorsType": [
+      "GB/T"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "_id": "667f161cebc30c5342b71441"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f161cebc30c5342b71442"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "_id": "667f161cebc30c5342b71443"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "_id": "667f161cebc30c5342b71444"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3167,
+        17.4898
+      ]
+    },
+    "_id": "667f166febc30c5342b714b8",
+    "area": "Lingampally ",
+    "name": "Charge Zone",
+    "address": " Parking Level, SLN Terminus Mall, Nallagandla Road, Lingampally, Hyderabad, Telangana 500019",
+    "contact": "80000 40404",
+    "capacity": 90,
+    "connectorsType": [
+      "GB/T"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "_id": "667f166febc30c5342b714b9"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f166febc30c5342b714ba"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f166febc30c5342b714bb"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "_id": "667f166febc30c5342b714bc"
+      },
+      {
+        "date": "2024-07-02",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f166febc30c5342b714bd"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3191,
+        17.4869
+      ]
+    },
+    "_id": "667f16dcebc30c5342b7153b",
+    "area": "Lingampally ",
+    "name": "Aether SuperCharge Point",
+    "address": " High Tech Plaza, Serilingampally, Hyderabad, Telangana 500019",
+    "contact": "80000 50505",
+    "capacity": 40,
+    "connectorsType": [
+      "GB/T"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f16dcebc30c5342b7153c"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f16dcebc30c5342b7153d"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.3125,
+        17.4939
+      ]
+    },
+    "_id": "667f178debc30c5342b7173f",
+    "area": "BHEL",
+    "name": "Annamayya EcoCharge Station",
+    "address": "Ground Floor, Sunflower Plaza, Opposite Annamayya Enclave Park, RC Puram, Hyderabad, Telangana 502032",
+    "contact": " 80000 60606",
+    "capacity": 80,
+    "connectorsType": [
+      "CCS-II"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "05:00",
+        "endTime": "06:00",
+        "_id": "667f178debc30c5342b71740"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "_id": "667f178debc30c5342b71741"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.284177,
+        17.481909
+      ]
+    },
+    "_id": "667f187eebc30c5342b71953",
+    "area": "BHEL",
+    "name": "Evion Charger Zone",
+    "address": "Beside Sri Venkateswara Temple, Annamayya Enclave, RC Puram, Hyderabad, Telangana 502032",
+    "contact": "80000 70707",
+    "capacity": 70,
+    "connectorsType": [
+      "Bharat DC001",
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "06:00",
+        "endTime": "07:00",
+        "_id": "667f187eebc30c5342b71954"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f187eebc30c5342b71955"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f187eebc30c5342b71956"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "_id": "667f187eebc30c5342b71957"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "_id": "667f187eebc30c5342b71958"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "_id": "667f187eebc30c5342b71959"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.28216,
+        17.480589
+      ]
+    },
+    "_id": "667f1917ebc30c5342b71b9b",
+    "area": "BHEL",
+    "name": "Tata Motors - Ev World",
+    "address": "Enclave Shopping Complex, Near BHEL Township, RC Puram, Hyderabad, Telangana 502032",
+    "contact": " 80000 80808",
+    "capacity": 50,
+    "connectorsType": [
+      "CCS",
+      "CHAdeMO"
+    ],
+    "timeSlots": [
+      {
+        "date": "2024-07-01",
+        "startTime": "05:00",
+        "endTime": "06:00",
+        "_id": "667f1917ebc30c5342b71b9c"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "_id": "667f1917ebc30c5342b71b9d"
+      },
+      {
+        "date": "2024-07-01",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "_id": "667f1917ebc30c5342b71b9e"
+      }
+    ],
+    "__v": 0
+  }
+]

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu sans';
+   
+}
+
+.booking{
+    height: 100vh;
+      background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 270px ;
+    background-position-x: 450px ;
+}
+.display{
+    border: 0px solid black;
+    height: 380px;
+    width: 420px;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.406); 
+    
+}
+
+.station{
+    border: 2px solid black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.763);  
+    box-shadow: 10px 10px ;
+    margin-left: -20px;
+
+}
+.station p,h1{
+    margin:10px 20px;
+}
+.stationarea{
+
+    margin-top: 20px;
+}
+.bookingcontainer {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    align-items: center;
+    height: 100vh;
+}
+
+.bookingbox {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 40px; /* Increase padding for better spacing */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    height: auto; /* Let height adjust to content */
+    width: 400px; /* Fixed width for form */
+    margin-top: 10vh;
+    box-shadow: 10px 10px black; /* Soft shadow for depth */
+    margin-right: -20px;
+}
+
+.bookheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bheader {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+
+.bookheader button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.bookheader button:hover {
+    color: #007bff;
+}
+
+.bookingdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between form elements */
+}
+
+.bookingdetails input,
+.bookingdetails select {
+    background: rgba(255, 255, 255, 0.7); /* Light background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: calc(100% - 30px); /* Adjust width to padding */
+    margin: 0 auto; /* Center form elements */
+}
+
+.bookingdetails input:focus,
+.bookingdetails select:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.dateTime {
+    display: flex;
+    flex-direction: column; /* Stack the date and time slot selectors */
+    gap: 10px; /* Add spacing between date and time slot selectors */
+}
+
+#continue {
+    margin: 20px auto 0; /* Center button and add top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: calc(100% - 60px); /* Adjust width to padding */
+    text-align: center;
+}
+.timeSlotsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    gap: 10px; /* Space between buttons */
+    margin: 10px 0; /* Margin around the container */
+    justify-content: center; /* Center the buttons in the container */
+  }
+  
+  .timeSlotButton {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    flex: 1 0 30%; /* Make buttons flexible with a minimum width */
+    text-align: center;
+    font-size: 14px;
+    
+  }
+  
+  .timeSlotButton:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .timeSlotButton.selected {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    transform: scale(1.05); /* Slightly enlarge the selected button */
+  }
+  ..timeSlotButton.booked{
+    background-color: red;
+  }
+#continue:hover {
+    opacity: 0.7;
+    transform: translateY(-2px);
+}
+.connectorSelect {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connectorSelect label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .connectorSelect select {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+    width: calc(100% - 20px); /* Adjust width to padding */
+  }
+  
+  .connectorSelect select:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  /* booking.css */
+
+/* General popup styling */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s ease-out;
+}
+
+.popup-content h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #000000; /* Attractive green color */
+}
+
+.popup-content p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  background: #000000; /* Attractive green color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.popup-buttons button:hover {
+  background: #ffffff; /* Darker shade of green */
+  color: #000000;
+}
+
+
+.popup-buttons button:active {
+  background: #000000; /* Even darker shade of green */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,8 @@
+# Ensure text files are normalized and use LF in the repository
+* text=auto
+
+# Explicitly set line endings for certain file types
+*.css text eol=lf
+*.jsx text eol=lf
+*.js text eol=lf
+*.html text eol=lf

@@ -1,0 +1,153 @@
+/*findpage.css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu sans';
+  }
+  
+  .find {
+    background-image: url('./FindJuice.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 310px ;
+    background-position-x: 510px ;
+  }
+  
+  .search form {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+  }
+  
+  .search input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+    padding: 8px 90px 8px;
+    border-radius: 10px;
+  margin-left: -40px;
+  box-shadow: 5px 5px;
+ }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .search button {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 10px;
+  }
+  
+  .searchcontent {
+    border: 1px;
+    height: 550px;
+    width: 460px;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    border-radius: 10px;
+    background-color:white;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .map {
+    height: 420px;
+    width: 700px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 5px 5px whitesmoke;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .findstation_card {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 380px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px;
+    border: 2px solid  black;
+    transition: height 0.3s ease; /* Smooth transition for height change */
+  }
+  .findstation_card:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out; 
+
+  }
+  
+  .findstation_card.expanded {
+    height: auto; /* Expand the card to fit content when expanded */
+  }
+  
+  .findstation_card h2 {
+    margin: 0px 10px;
+  }
+  
+  .area p {
+    margin: 5px 10px;
+    font-size: 20px;
+  }
+  
+  .connectors {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  
+  .card-header {
+    padding: 10px;
+  }
+  
+  .card-details {
+    padding: 10px;
+  }
+
+  .card-details p {
+    margin-left: 10px;
+  }
+ .navi{
+    display: flex;
+    flex-direction: column;
+ }
+  .getdir {
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+  }
+  #statbook{
+    border: 1px solid grey;
+    padding:5px;
+    border-radius: 10px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    
+
+  }
